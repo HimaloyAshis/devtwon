@@ -17,7 +17,7 @@ const Navbar = () => {
                     }
                 </span>
             </div>
-            <ul className={` md:flex bg-[#164863] py-3 px-2 rounded-md mt-3 duration-500 text-white font-bold absolute  ${Open? 'top-6' :  "-top-56"} `}>
+            <ul className={` md:flex bg-[#164863] py-3 px-2 rounded-md mt-3 duration-500 text-white font-bold absolute md:static gap-2  ${Open? 'top-6' :  "-top-56"} `}>
 
                 <li className='mb-2'><Link>DevTown</Link></li>
                 <li className='mb-2'><Link>DevTown</Link></li>
