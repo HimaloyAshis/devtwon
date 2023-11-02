@@ -17,18 +17,18 @@ const Navbar = () => {
                     }
                 </span>
             </div>
-            <ul className={` md:flex justify-between bg-[#164863] py-3 px-2 rounded-md mt-3 duration-500 text-white font-bold absolute md:static   ${Open ? 'top-6' : "-top-64"} `}>
+            <ul className={` md:flex justify-between hover: bg-[#164863] py-3 px-2 rounded-md mt-3 duration-500 text-white font-bold absolute md:static   ${Open ? 'top-6' : "-top-96"} `}>
 
                 <div className='md:flex gap-2'>
-                    <li className='mb-2'><Link>DevTown</Link></li>
-                    <li className='mb-2'><Link>Videos</Link></li>
-                    <li className='mb-2'><Link>Class</Link></li>
-                    <li className='mb-2'><Link>Teachers</Link></li>
+                    <li className='mb-1 px-3 py-2 rounded-md hover:bg-[#1450A3]'><Link>Videos</Link></li>
+                    <li className='mb-1 px-3 py-2 rounded-md hover:bg-[#1450A3]'><Link>Class</Link></li>
+                    <li className='mb-1 px-3 py-2 rounded-md hover:bg-[#1450A3]'><Link>Teachers</Link></li>
+                    <li className='mb-1 px-3 py-2 rounded-md hover:bg-[#1450A3]'><Link>DevTown</Link></li>
                 </div>
                 <div className='md:flex gap-2'>
-                    <li className='mb-2'><Link>Offer</Link></li>
-                    <li className='mb-2'><Link>About</Link></li>
-                    <li className='mb-2'><Link>Contact</Link></li>
+                    <li className='mb-1 px-3 py-2 rounded-md hover:bg-[#1450A3]'><Link>Offer</Link></li>
+                    <li className='mb-1 px-3 py-2 rounded-md hover:bg-[#1450A3]'><Link>About</Link></li>
+                    <li className='mb-1 px-3 py-2 rounded-md hover:bg-[#1450A3]'><Link>Contact</Link></li>
                 </div>
             </ul>
 
