@@ -17,7 +17,7 @@ const Navbar = () => {
                     }
                 </span>
             </div>
-            <ul className={` md:flex justify-between hover: bg-[#164863] py-3 px-2 rounded-md mt-3 duration-500 text-white font-bold absolute md:static   ${Open ? 'top-6' : "-top-96"} `}>
+            <ul className={` md:flex  justify-between hover: bg-[#164863] py-3 px-2 rounded-md mt-3 duration-500 text-white font-bold absolute md:static   ${Open ? 'top-6' : "-top-96"} `}>
 
                 <div className='md:flex gap-2'>
                     <li className='mb-1 px-3 py-2 rounded-md hover:bg-[#1450A3]'><Link>Videos</Link></li>
